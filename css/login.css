@@ -29,7 +29,7 @@ background-image:url('../images/canion-mountains.jpg');
 }
 
 .container input{
-    margin-top: 7%;
+    margin-top: 5%;
     width: 400px;
     height: 3em; 
     border-radius: 2%;
@@ -37,21 +37,31 @@ background-image:url('../images/canion-mountains.jpg');
 }
 
 .container button{
-    margin-top: 7%;
+    margin-top: 5%;
     width: 200px;
     height: 3em; 
     border-radius: 2%;
     text-align:center;
 }
 
-.container p{
-    margin-top: 7%;
-    margin-bottom: 7%;
-    text-decoration: none;
+#caption{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #32a852;
+    font-size: 2em;
 }
 .container p a{
     text-decoration: none;
     color: #32a852;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #32a852;
+   
 }
 
 .container input:hover{
@@ -60,4 +70,7 @@ background-image:url('../images/canion-mountains.jpg');
 .container button:hover{
     background-color: #32a852
 }
+
+.container p a:hover{
+    color: honeydew;
 }

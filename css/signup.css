@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+    }
+    
+    body{
+    /*
+   Photo by Achraf Alan from Pexels
+    */
+    background-image:url('../images/shooting-star.jpg');
+    }
+    
+    .wrapper{
+        margin: 5% auto;
+        width: 600px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 2px;
+        
+        
+    }
+    
+    .container{
+        
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        
+    }
+    
+    .container input{
+        margin-top: 5%;
+        width: 400px;
+        height: 3em; 
+        border-radius: 2%;
+        text-align:center;
+    }
+    
+    .container button{
+        margin-top: 5%;
+        width: 200px;
+        height: 3em; 
+        border-radius: 2%;
+        text-align:center;
+    }
+    
+    #caption{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #32a852;
+        font-size: 2em;
+    }
+    .container p a{
+        text-decoration: none;
+        color: #32a852;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .container p{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #32a852;
+       
+    }
+    
+    .container input:hover{
+        background-color: #32a852
+    }
+    .container button:hover{
+        background-color: #32a852
+    }
+    
+    .container p a:hover{
+        color: honeydew;
+    }
