@@ -1,0 +1,63 @@
+*{
+margin:0px;
+padding: 0px;
+}
+
+body{
+/*
+Photo by eberhard grossgasteiger from Pexels
+*/
+background-image:url('../images/canion-mountains.jpg');
+}
+
+.wrapper{
+    margin: 10% auto;
+    width: 600px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2px;
+    
+    
+}
+
+.container{
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+.container input{
+    margin-top: 7%;
+    width: 400px;
+    height: 3em; 
+    border-radius: 2%;
+    text-align:center;
+}
+
+.container button{
+    margin-top: 7%;
+    width: 200px;
+    height: 3em; 
+    border-radius: 2%;
+    text-align:center;
+}
+
+.container p{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    text-decoration: none;
+}
+.container p a{
+    text-decoration: none;
+    color: #32a852;
+}
+
+.container input:hover{
+    background-color: #32a852
+}
+.container button:hover{
+    background-color: #32a852
+}
+}
